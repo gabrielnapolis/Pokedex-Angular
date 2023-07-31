@@ -8,9 +8,7 @@ import { Component } from '@angular/core';
 })
 export class PokemonListComponent {
 
-  pokemons = ['Bulbasaur', 'Ivysaur', 'Venosaur', 'Charmander'];
+  constructor(public servicePokemon: PokemonService){
 
-  constructor(private servicePokemon: PokemonService){
-    
   }
 }
